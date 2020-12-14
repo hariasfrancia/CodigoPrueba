@@ -1,0 +1,22 @@
+h1, article{
+    background: turquoise;
+}
+
+main>ol>li{
+    color: red;
+}
+ol>ul>li{
+    color: rgb(235, 118, 106);
+}
+ol>ul>li>span{
+    background: yellow;
+}
+ol>ul>li>#resaltar{
+    background: violet;
+}
+.sec1>h2{
+    border: tomato solid;
+}
+.sec2>h2{
+    border: tomato solid;
+}

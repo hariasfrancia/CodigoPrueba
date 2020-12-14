@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <main>
+        <h2>Registro de Usuarios</h2>
+        <section>
+            <form action="" method="POST">
+                <label for="">Nombres</label>
+                <input type="text" placeholder="Ingrese su Nombre" pattern="[a-z A-Z]" required><br><br>
+                <label for="">Apellidos</label>
+                <input type="text" placeholder="Ingrese sus Apellidos" pattern="[a-z A-Z]" required><br><br>
+                <label for="">Edad</label>
+                <input type="text" placeholder="Engrese su Edad" min="1" max="100" required><br><br>
+                <label for="">Correo</label>
+                <input type="email" placeholder="Ingrese su correo" required><br><br>
+                <label for="">Contraseña</label>
+                <input type="password" placeholder="Ingrese su Contraseña" required><br><br>
+                <h3>Datos Adicionales</h3>  
+                <label for="">Fecha de Nacimiento</label> 
+                <input type="date" name="" id="" placeholder="dd/mm/aaaa"><br><br>     
+                <label for="">Teléfono</label>
+                <input type="telf" minlength="9" pattern="[1,9" placeholder="Ingrese su #teléfono"><br>
+                <label for="">Género</label><br>
+                <input type="radio" name="genero" value="M">Masculino <br>
+                <input type="radio" name="genero" value="F">Femenino <br><br>
+                <label for="">Departamento</label>
+                <select name="" id="">
+                    <option value="" desable selected>Seleccione</option>
+                    <option value="LI">Lima</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="LO">Loreto</option>
+                    <option value="PU" disabled>Puno</option>
+                    <option value="az">-Azangaro</option>
+                    <option value="ca">-Caraballa</option>
+                    <option value="ch">-Chucuito</option>
+                    <option value="TA">Tacna</option>
+                    <option value="AY">Ayacucho</option>
+                </select>
+                <br><br>
+                <label for="">Hobbies</label><br>
+                <label for="">Leer</label>
+                <input type="checkbox" value="leer"><br>
+                <label for="">Jugar Fútbol</label>
+                <input type="checkbox" value="soccer"><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa Texto"></textarea><br>
+                <label for="">Sube tu foto</label>
+                <input type="file"><br>
+                <hr>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

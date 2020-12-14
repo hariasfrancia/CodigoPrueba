@@ -1,0 +1,15 @@
+
+section{
+    background: aqua;
+}
+
+.resaltar{
+    background: yellow;
+}
+.rojo{
+    color: red;
+}
+
+#importante{
+    border: 3px solid tomato;
+}
